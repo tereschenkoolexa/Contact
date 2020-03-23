@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body{
+  background-image:url("https://images3.alphacoders.com/975/thumb-1920-975999.png");
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.link-brand{
+  font-size: 32px;
+}
+
+.link-color{
+  color: white !important;
+}
+
+.link-button{
+  background-color: purple;
+  padding: 5px;
+  border: none;
+  width: 100%;
+}
+
+.navbar-bg{
+  background-color: rgb(128, 0, 128,0.7);
+}
+
+.navbar-padding{
+  padding: 5px;;
+}
+
+.navbar{
+  padding: 0px !important;
+}
+
+.d6 {
+  background: rgba(128, 0, 128, 0);
+}
+.d6 form {
+  height: 42px;
+}
+.d6 input {
+  height: 100%;
+  width: 0;
+  padding: 0 42px 0 15px;
+  border: none;
+  border-bottom: 2px solid transparent;
+  outline: none;
+  background: transparent;
+  transition: .4s cubic-bezier(0, 0.8, 0, 1);
+  top: 0;
+  right: 0;
+  z-index: 2;
+  color: white;
+}
+.d6 input:focus {
+  width: 300px;
+  z-index: 1;
+  border-bottom: 2px solid #F9F0DA;
+}
+.search-button {
+  background: rgba(128, 0, 128, 0);
+  border: none;
+  height: 42px;
+  width: 42px;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+.search-button:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #F9F0DA;
+}
+.div-head{
+  width: 120px;
+  float: left;
+}
+.div-contact{
+  width: 100px;
+  float: right;
+}
+.search-div{
+  float: right;
+}

@@ -1,0 +1,59 @@
+.contact-item{
+    width: 250px;
+    padding: 15px;
+    float: left;
+    list-style-type: none;
+    background-color: rgb(128, 0, 128,0.7);
+    color: white;
+    margin: 13px;
+}
+
+.contact-item img{
+    width: 100%;
+    
+}
+
+.star{
+    color: white;
+    cursor: pointer;
+    margin: 15px 0px 5px 0px;
+    float: left;
+}
+
+.pencil{
+    color: rgb(167, 90, 167);
+    cursor: pointer;
+    margin: 15px 0px 5px 0px;
+    float: right !important;
+}
+.trash{
+    color: rgb(255, 1, 255);
+    cursor: pointer;
+    margin: 15px 0px 5px 0px;
+    float: right !important;
+}
+
+
+.button-item{
+    background-color: purple;
+    padding: 5px;
+    color: white;
+    border: none;
+    width: 100%;
+}
+
+.button-item:hover{
+    background-color: rgb(247, 7, 247, 0.7);
+    padding: 5px;
+    color: white;
+    border: none;
+    width: 100%;
+}
+
+.head-div-icon{
+    width: 100%;
+}
+.item-div-icon{
+    width: 33%;
+    float: left;
+}

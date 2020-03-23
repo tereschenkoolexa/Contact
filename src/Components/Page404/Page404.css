@@ -1,0 +1,26 @@
+.text-error-404{
+    text-align: center;
+    margin-top: 30px;
+}
+a{
+    
+}
+.centre{
+    text-align: center;
+}
+.button-error-404{
+    background-color: rgb(128, 0, 128, 0.7);
+    padding: 5px;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    position: relative;
+}
+.button-error-404:hover{
+    background-color: rgb(247, 7, 247, 0.7);
+    padding: 5px;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    position: relative;
+}
